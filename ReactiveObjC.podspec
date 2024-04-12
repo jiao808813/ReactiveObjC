@@ -15,6 +15,8 @@ Pod::Spec.new do |s|
   s.screenshots  = "https://reactivecocoa.io/img/logo.png"
   s.license      = { type: "MIT", file: "LICENSE.md" }
 
+  s.resource_bundle = {"ReactiveObjC.privacy"=>"Pod/Privacy/ReactiveObjC/PrivacyInfo.xcprivacy"}
+
   s.documentation_url  = "https://github.com/ReactiveCocoa/ReactiveObjC/"\
                          "tree/master/Documentation#readme"
 
